@@ -27,8 +27,9 @@ from loguru import logger
 LAST_OUTPUT = time.time()
 execution_path = os.getcwd()
 RAMDISK = "/tmp/swap.jpg"
-TEST_MODE = True
+TEST_MODE = False
 BORED_TIMEOUT = 360
+SHUTUP_TIMEOUT = 10
 execution_path = os.getcwd()
 prediction = ObjectDetection()
 prediction.setModelTypeAsYOLOv3()
@@ -100,20 +101,19 @@ def random_sound(image_type: str):
     global LAST_OUTPUT
     LAST_OUTPUT = time.time()
 
-    swap = random.choice(os.listdir(f"./wav/{image_type}"))
+    swap = join(f"./wav/{image_type}", random.choice(os.listdir(f"./wav/{image_type}")))
     if swap is None:
         print("no test data?")
         return
     print("playing...", swap)
-    play_sound("click.wav")
-    temp_name = uuid.uuid4().hex
-    shutil.copyfile(RAMDISK, f"keepers/{temp_name}")
-    play_sound(join(f"./wav/{image_type}", swap))
+
+    subprocess.check_output(['aplay', swap])
+
 
 
 logger.info("init")
 signal.signal(signal.SIGINT, signal_handler)
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(-1)
 if not camera.isOpened():
     print("Cannot open camera")
     sys.exit()
@@ -130,7 +130,15 @@ while True:
     if TEST_MODE:
         random_image()
     detections = prediction.detectObjectsFromImage(input_image="/tmp/swap.jpg", output_image_path="/tmp/annotated.jpg", minimum_percentage_probability=30)
-    print(detections)
+    if LAST_OUTPUT + SHUTUP_TIMEOUT < time.time():
+        print(LAST_OUTPUT)
+        print(time.time())
+        for d in detections:
+            if d['name'] == 'person':
+                random_sound('person')
+            if d['name'] == 'cell phone':
+                random_sound('cell phone')
+        print(detections)
     if LAST_OUTPUT + BORED_TIMEOUT < time.time():
         random_sound("bored")
     time.sleep(5)

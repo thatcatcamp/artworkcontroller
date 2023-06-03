@@ -1,0 +1,261 @@
+Ant
+Axolotl
+Bat
+Bear
+Bee
+Camel
+Capybara
+Cat
+Cheetah
+Cyote
+Deer
+Dog
+Donkey
+Eagle
+Frog
+Giraffe
+Goat
+Goldfish
+Gorilla
+Hamster
+Hedgehog
+Hippo
+Horse
+Iguana
+Jaguar
+Koala
+Leopard
+Lion
+Llama
+Meerkat
+Narwhal
+Otter
+Panda
+Quokka
+Raccoon
+Red Panda
+Rhinoceros
+Shark
+Sheep
+Sloth
+Snake
+Squirrel
+Tiger
+Turtle
+Uakari
+Vulture
+Wolf
+Xolmis
+Yak
+Zebra
+Aardvark
+Addax
+Adelie Penguin
+African Buffalo
+African Elephant
+African Forest Elephant
+African Lions
+African Penguin
+African Spurred Tortoise
+African Wild Dog
+Africanized Bees
+Allen’s Swamp Monkeys
+Alligator
+Allis Shad
+Alpine Ibex
+Amazon River Dolphin
+Amazonian Manatee
+American Badger
+American Kestrel
+American Oystercatcher Bird
+Anaconda Snake
+Aquatic Warbler
+Arctic Wolf
+Armadillo
+Asian Elephant
+Asian Lion
+Atlantic Puffin
+Atlantic Spotted Dolphins
+Atlas Beetle
+Audubon’s Shearwater Bird
+Australian Dingo
+Australian Pelican
+Australian Swiftlet
+Bactrian Camels
+Badger
+Baltimore Oriole
+Bean Goose
+Beetle
+Bengal Tigers
+Betta Fish (Siamese Fighting Fish)
+Big Eyed Squirrel Fish
+Bigfin Reef Squid
+Bigfin Squid
+Bison
+Black Caimans
+Black Footed Ferret
+Black House Spider
+Black Mamba Snakes
+Black Necked Stilt
+Black Rhinoceros
+Black Widow Spider
+Blacktip Reef Shark
+Blacktip Shark
+Blister Beetle
+Blue and Yellow Macaw
+Blue Ringed Octopus
+Blue Whale
+Blue-footed Booby Bird
+Boa Constrictor Snake
+Bottlenose Dolphins
+Bowhead Whale
+Brandling Worms
+Brazilian Wandering Spider
+British Mice
+British Moles
+British Water Vole
+British Wild Cats
+Broad-Snouted Caimans
+Brown Recluse Spider
+Brown Trout
+Bull Shark
+Bumble Bees
+Burying Beetle
+Butterflies
+Cactus Wren
+Camel Cricket
+Camel Spider
+Campbell’s Dwarf Hamster
+Canada Goose
+Canadian Marble Fox
+Cape Gannet Bird
+Capercaillie
+Capuchin Monkeys
+Caracal
+Cardinal Birds
+Caribbean Reef Shark
+Caribou (Reindeer)
+Cassowary
+Centipede
+Chimpanzee
+Chinchilla
+Chinese Hamsters
+Chinstrap Penguin
+Chipmunk
+Christmas Beetle
+Cicada Killer Wasps
+Click Beetle
+Colossal Squid
+Commerson Dolphin
+Common Buzzard
+Common Dolphin
+Common Frog
+Common Hippopotamus
+Common Kingfisher
+Common Lizard
+Common Newt
+Common Octopus
+Common Palm Civet
+Common Seal
+Common Toad
+Common Wasps
+Cone Snail
+Cooper’s Hawk
+Copepods
+Copperhead Snakes
+Corncrake
+Cottonmouth Snakes
+Cows
+Crab Plover
+Crocodile
+Cuban Solenodon
+Cuviers Dwarf Caimans
+Darkling Beetle
+De Brazza’s Monkeys
+Dik Dik
+Dolphin
+Domestic Pig
+Dragonfly
+Dromedary Camels
+Drywood Termites
+
+Duck-billed Platypus
+Ducks
+Dung Beetle
+Earthworms
+Eastern Lowland Gorillas
+Eastern Wolf
+Echidna
+Elephant Seal
+Elephant Shrew
+Elk
+Emperor Penguin
+Emu
+Erect-Crested Penguin
+Ethiopian Wolf
+Eurasian Beaver
+Eurasian Eagle Owl
+Eurasian Water Shrew
+Eurasian Wolf
+Eurasian Wryneck
+European Hare
+European Otter
+False Black Widow Spider
+Fennec Fox
+Field Vole
+Fiji Blue Devil Damsel Fish
+Fiordland Crested Penguin
+Flatworms
+Fungus Beetle
+Funnel Web Spider
+Galapagos Barn Owls
+Flamingo
+Fox
+Frigatebird
+Fruit Bat
+Galapagos Penguin
+Gazelle
+Gecko
+Giant Anteater
+Giant Clam
+Giant Panda
+Giant Squid
+Gila Monster
+Giraffe Weevil
+Glass Frog
+Glow Worm
+Goose
+Gopher
+Grasshopper
+Great White Shark
+Green Bee-Eater
+Greenland Dog
+Grey Mouse Lemur
+Grey Reef Shark
+Grey Seal
+Grizzly Bear
+Guinea Fowl
+Guinea Pig
+Guppy Fish
+Hammerhead Shark
+Hare
+Harpy Eagle
+Hawaiian Crow
+Hedgehog
+Hermit Crab
+Herring Fish
+Himalayan Monal Pheasant
+Hoatzin Bird
+Honey Badger
+Honey Bee
+Horn Shark
+Horned Frog
+Horsefly
+Howler Monkey
+Human
+Hummingbird
+Humpback Whale
+Hyena
+Ibis Bird
+Ibex
+Ibisbill Bird
