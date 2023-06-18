@@ -10,6 +10,7 @@
     LGPL
 """
 import datetime
+import json
 import os
 import random
 import shutil
@@ -28,6 +29,7 @@ LAST_OUTPUT = time.time()
 execution_path = os.getcwd()
 RAMDISK = "/tmp/swap.jpg"
 TEST_MODE = False
+SEEN = {}
 BORED_TIMEOUT = 360
 SHUTUP_TIMEOUT = 10
 execution_path = os.getcwd()
@@ -129,16 +131,26 @@ while True:
     # add random images for testing
     if TEST_MODE:
         random_image()
-    detections = prediction.detectObjectsFromImage(input_image="/tmp/swap.jpg", output_image_path="/tmp/annotated.jpg", minimum_percentage_probability=30)
-    if LAST_OUTPUT + SHUTUP_TIMEOUT < time.time():
-        print(LAST_OUTPUT)
-        print(time.time())
-        for d in detections:
-            if d['name'] == 'person':
-                random_sound('person')
-            if d['name'] == 'cell phone':
-                random_sound('cell phone')
-        print(detections)
+    try:
+        detections = prediction.detectObjectsFromImage(input_image="/tmp/swap.jpg", output_image_path="/tmp/annotated.jpg", minimum_percentage_probability=30)
+        if LAST_OUTPUT + SHUTUP_TIMEOUT < time.time():
+            print(LAST_OUTPUT)
+            print(time.time())
+            for d in detections:
+                if d['name'] not in SEEN.keys():
+
+                    SEEN[d['name']] = 1
+                else:
+                    SEEN[d['name']] = SEEN[d['name']] + 1
+                if d['name'] == 'person':
+                    random_sound('person')
+                if d['name'] == 'cell phone':
+                    random_sound('cell phone')
+            print(detections)
+            with open("/tmp/stats.json", "w+t") as handle:
+                json.dump(SEEN, handle)
+    except Exception as e:
+        print(e)
     if LAST_OUTPUT + BORED_TIMEOUT < time.time():
         random_sound("bored")
     time.sleep(5)
